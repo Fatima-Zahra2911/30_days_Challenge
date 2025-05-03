@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border-color: white;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #search {
+    width: 500px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+  nav > img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+  }
+  nav > a {
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav > a:hover {
+    border-color: white;
+    color: gray;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .boxes {
+    background-color: #bbd8f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+  }
+  .boxes:hover {
+    transform: translateY(-5px);
+  }
+  
+  .boxes h3 {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: #343a40;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .inner_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .inner_container img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .boxes p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .boxes a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .boxes a:hover {
+    background-color: #0056b3;
+  }
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .inner_container img {
+      height: 100px;
+    }
+  } 
+  @media (max-width: 480px) {
+    .boxes {
+      max-width: 100%;
+    }
+  }
+  
