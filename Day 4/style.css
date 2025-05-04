@@ -1,0 +1,17 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  @media (max-width: 576px) {
+    .about-me h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-me p {
+      font-size: 0.95rem;
+    }
+  }
+  footer a:hover {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
