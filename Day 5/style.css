@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .quiz-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .option-label {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .option-label:hover {
+    background-color: #f0f0f0;
+  }
+
+  #feedback {
+    font-weight: 500;
+  }
