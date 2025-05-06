@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  @media (max-width: 576px) {
+    .about-me h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-me p {
+      font-size: 0.95rem;
+    }
+  }
+  footer a:hover {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
+body.dark-mode {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #222 !important;
+}
+
+body.dark-mode .nav-link,
+body.dark-mode .navbar-brand,
+body.dark-mode .footer a {
+  color: #fff !important;
+}
+
+body.dark-mode .btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark-mode footer {
+  background-color: #111 !important;
+}
